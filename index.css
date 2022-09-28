@@ -1,0 +1,44 @@
+#clockContainer {
+    position: relative;
+    /* background-color: blueviolet; */
+    height: 500px;
+    width: 500px;
+    background: url('uu.png') no-repeat center center/cover;
+    background-size: 500px;
+    /* border: 2px solid blanchedalmond; */
+    margin: auto;
+    margin-top: 50px;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    /* background-color: blueviolet; */
+    border-radius: 20px;
+    transform-origin: bottom;
+    border: 1px solid black;
+    background: none;
+}
+
+#hour {
+    width: 12px;
+    height: 115px;
+    top: 137px;
+    left: 245px;
+}
+
+#minute {
+    width: 7px;
+    height: 160px;
+    top: 93px;
+    left: 247px;
+}
+
+#second {
+    width: 4px;
+    height: 190px;
+    top: 61px;
+    left: 249px;
+}
+
